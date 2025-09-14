@@ -23,9 +23,7 @@ Use the supernet_train.py.
 - Hyperparameter for FLOWERS: `--epochs 3000 --warmup-epochs 100 --lr 7e-5 --min-lr 7e-7 --batch-size 256`
 - Hyperparameter for CARS: `--epochs 1500 --warmup-epochs 50 --lr 7e-3 --min-lr 7e-5 --batch-size 64`
 
-## What is our implementation based on?
-
-The code from https://github.com/microsoft/Cream/tree/main/AutoFormer. The MIT license of AutoFormer is put in `license/AutoFormer`.
+## Our Implementation
 
 ### `evolution.py`
 
